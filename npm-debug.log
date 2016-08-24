@@ -1,0 +1,247 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-addons-update' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of /Users/huichen/Desktop/React/ATWC/package.json
+5 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/axios/package.json
+6 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/babel-preset-es2015/package.json
+7 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/babel-preset-react/package.json
+8 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/babelify/package.json
+9 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/classnames/package.json
+10 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/electron/package.json
+11 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/electron-prebuilt/package.json
+12 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/electron-reload/package.json
+13 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/envify/package.json
+14 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/jquery/package.json
+15 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/jsplumb/package.json
+16 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/level/package.json
+17 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/nedb/package.json
+18 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/pouchdb/package.json
+19 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/react/package.json
+20 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/react-autocomplete/package.json
+21 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/react-dom/package.json
+22 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/react-sound/package.json
+23 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/selenium-standalone/package.json
+24 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/soundmanager2/package.json
+25 verbose installManyTop reading scoped package data from /Users/huichen/Desktop/React/ATWC/node_modules/watchify/package.json
+26 info package.json react-sound@0.4.0 No repository field.
+27 info package.json soundmanager2@2.97.20150601-a license should be a valid SPDX license expression
+28 verbose readDependencies loading dependencies from /Users/huichen/Desktop/React/ATWC/package.json
+29 silly cache add args [ 'react-addons-update', null ]
+30 verbose cache add spec react-addons-update
+31 silly cache add parsed spec Result {
+31 silly cache add   raw: 'react-addons-update',
+31 silly cache add   scope: null,
+31 silly cache add   name: 'react-addons-update',
+31 silly cache add   rawSpec: '',
+31 silly cache add   spec: 'latest',
+31 silly cache add   type: 'tag' }
+32 silly addNamed react-addons-update@latest
+33 verbose addNamed "latest" is being treated as a dist-tag for react-addons-update
+34 info addNameTag [ 'react-addons-update', 'latest' ]
+35 silly mapToRegistry name react-addons-update
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry data Result {
+38 silly mapToRegistry   raw: 'react-addons-update',
+38 silly mapToRegistry   scope: null,
+38 silly mapToRegistry   name: 'react-addons-update',
+38 silly mapToRegistry   rawSpec: '',
+38 silly mapToRegistry   spec: 'latest',
+38 silly mapToRegistry   type: 'tag' }
+39 silly mapToRegistry uri https://registry.npmjs.org/react-addons-update
+40 verbose addNameTag registry:https://registry.npmjs.org/react-addons-update not in flight; fetching
+41 verbose request uri https://registry.npmjs.org/react-addons-update
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 5:56:41 PM
+44 verbose request id d96e4234df8b3230
+45 http request GET https://registry.npmjs.org/react-addons-update
+46 http 200 https://registry.npmjs.org/react-addons-update
+47 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+47 verbose headers   etag: '"4DRNAP1LMR0KECLB18GFYEEFL"',
+47 verbose headers   'content-type': 'application/json',
+47 verbose headers   'content-encoding': 'gzip',
+47 verbose headers   'cache-control': 'max-age=300',
+47 verbose headers   'content-length': '5490',
+47 verbose headers   'accept-ranges': 'bytes',
+47 verbose headers   date: 'Wed, 17 Aug 2016 08:56:42 GMT',
+47 verbose headers   via: '1.1 varnish',
+47 verbose headers   age: '273',
+47 verbose headers   connection: 'keep-alive',
+47 verbose headers   'x-served-by': 'cache-itm7421-ITM',
+47 verbose headers   'x-cache': 'HIT',
+47 verbose headers   'x-cache-hits': '1',
+47 verbose headers   'x-timer': 'S1471424202.022724,VS0,VE0',
+47 verbose headers   vary: 'Accept-Encoding' }
+48 silly get cb [ 200,
+48 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+48 silly get     etag: '"4DRNAP1LMR0KECLB18GFYEEFL"',
+48 silly get     'content-type': 'application/json',
+48 silly get     'content-encoding': 'gzip',
+48 silly get     'cache-control': 'max-age=300',
+48 silly get     'content-length': '5490',
+48 silly get     'accept-ranges': 'bytes',
+48 silly get     date: 'Wed, 17 Aug 2016 08:56:42 GMT',
+48 silly get     via: '1.1 varnish',
+48 silly get     age: '273',
+48 silly get     connection: 'keep-alive',
+48 silly get     'x-served-by': 'cache-itm7421-ITM',
+48 silly get     'x-cache': 'HIT',
+48 silly get     'x-cache-hits': '1',
+48 silly get     'x-timer': 'S1471424202.022724,VS0,VE0',
+48 silly get     vary: 'Accept-Encoding' } ]
+49 verbose get saving react-addons-update to /Users/huichen/.npm/registry.npmjs.org/react-addons-update/.cache.json
+50 verbose correctMkdir /Users/huichen/.npm correctMkdir not in flight; initializing
+51 silly addNameTag next cb for react-addons-update with tag latest
+52 silly addNamed react-addons-update@15.3.0
+53 verbose addNamed "15.3.0" is a plain semver version for react-addons-update
+54 silly mapToRegistry name react-addons-update
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'react-addons-update',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   name: 'react-addons-update',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/react-addons-update
+59 verbose addRemoteTarball https://registry.npmjs.org/react-addons-update/-/react-addons-update-15.3.0.tgz not in flight; adding
+60 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-addons-update/-/react-addons-update-15.3.0.tgz',
+60 verbose addRemoteTarball   '69782a29e037d5a621f6da88c35442e3bf113029' ]
+61 info retry fetch attempt 1 at 5:56:42 PM
+62 info attempt registry request try #1 at 5:56:42 PM
+63 http fetch GET https://registry.npmjs.org/react-addons-update/-/react-addons-update-15.3.0.tgz
+64 http fetch 200 https://registry.npmjs.org/react-addons-update/-/react-addons-update-15.3.0.tgz
+65 silly fetchAndShaCheck shasum 69782a29e037d5a621f6da88c35442e3bf113029
+66 verbose addTmpTarball /var/folders/j6/xh16tkh96t96kvfcwkbdx2y00000gn/T/npm-10706-0aba67de/registry.npmjs.org/react-addons-update/-/react-addons-update-15.3.0.tgz not in flight; adding
+67 verbose addTmpTarball already have metadata; skipping unpack for react-addons-update@15.3.0
+68 verbose correctMkdir /Users/huichen/.npm correctMkdir not in flight; initializing
+69 silly cache afterAdd react-addons-update@15.3.0
+70 verbose afterAdd /Users/huichen/.npm/react-addons-update/15.3.0/package/package.json not in flight; writing
+71 verbose correctMkdir /Users/huichen/.npm correctMkdir not in flight; initializing
+72 verbose afterAdd /Users/huichen/.npm/react-addons-update/15.3.0/package/package.json written
+73 silly install resolved [ { name: 'react-addons-update',
+73 silly install resolved     version: '15.3.0',
+73 silly install resolved     main: 'index.js',
+73 silly install resolved     repository:
+73 silly install resolved      { type: 'git',
+73 silly install resolved        url: 'git+https://github.com/facebook/react.git' },
+73 silly install resolved     keywords: [ 'react', 'react-addon' ],
+73 silly install resolved     license: 'BSD-3-Clause',
+73 silly install resolved     dependencies: {},
+73 silly install resolved     peerDependencies: { react: '^15.3.0' },
+73 silly install resolved     description: 'This package provides the React updates add-on.',
+73 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+73 silly install resolved     homepage: 'https://github.com/facebook/react#readme',
+73 silly install resolved     _id: 'react-addons-update@15.3.0',
+73 silly install resolved     _shasum: '69782a29e037d5a621f6da88c35442e3bf113029',
+73 silly install resolved     _resolved: 'https://registry.npmjs.org/react-addons-update/-/react-addons-update-15.3.0.tgz',
+73 silly install resolved     _from: 'react-addons-update@latest',
+73 silly install resolved     scripts: {},
+73 silly install resolved     _npmVersion: '3.9.6',
+73 silly install resolved     _nodeVersion: '6.2.0',
+73 silly install resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+73 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+73 silly install resolved     dist:
+73 silly install resolved      { shasum: '69782a29e037d5a621f6da88c35442e3bf113029',
+73 silly install resolved        tarball: 'https://registry.npmjs.org/react-addons-update/-/react-addons-update-15.3.0.tgz' },
+73 silly install resolved     _npmOperationalInternal:
+73 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+73 silly install resolved        tmp: 'tmp/react-addons-update-15.3.0.tgz_1469817491352_0.7800260330550373' },
+73 silly install resolved     directories: {} } ]
+74 info install react-addons-update@15.3.0 into /Users/huichen/Desktop/React/ATWC
+75 info installOne react-addons-update@15.3.0
+76 verbose installOne of react-addons-update to /Users/huichen/Desktop/React/ATWC not in flight; installing
+77 verbose correctMkdir /Users/huichen/.npm/_locks correctMkdir not in flight; initializing
+78 verbose lock using /Users/huichen/.npm/_locks/react-addons-update-574caf1f6a478aed.lock for /Users/huichen/Desktop/React/ATWC/node_modules/react-addons-update
+79 silly install write writing react-addons-update 15.3.0 to /Users/huichen/Desktop/React/ATWC/node_modules/react-addons-update
+80 verbose unbuild node_modules/react-addons-update
+81 silly gentlyRm /Users/huichen/Desktop/React/ATWC/node_modules/react-addons-update is being purged from base /Users/huichen/Desktop/React/ATWC
+82 verbose gentlyRm don't care about contents; nuking /Users/huichen/Desktop/React/ATWC/node_modules/react-addons-update
+83 verbose tar unpack /Users/huichen/.npm/react-addons-update/15.3.0/package.tgz
+84 verbose tar unpacking to /Users/huichen/Desktop/React/ATWC/node_modules/react-addons-update
+85 silly gentlyRm /Users/huichen/Desktop/React/ATWC/node_modules/react-addons-update is being purged
+86 verbose gentlyRm don't care about contents; nuking /Users/huichen/Desktop/React/ATWC/node_modules/react-addons-update
+87 silly gunzTarPerm modes [ '755', '644' ]
+88 silly gunzTarPerm extractEntry package.json
+89 silly gunzTarPerm extractEntry README.md
+90 silly gunzTarPerm extractEntry LICENSE
+91 silly gunzTarPerm extractEntry index.js
+92 silly gunzTarPerm extractEntry PATENTS
+93 verbose write writing to /Users/huichen/Desktop/React/ATWC/node_modules/react-addons-update/package.json
+94 info preinstall react-addons-update@15.3.0
+95 verbose readDependencies loading dependencies from /Users/huichen/Desktop/React/ATWC/node_modules/react-addons-update/package.json
+96 silly prepareForInstallMany adding react@^15.3.0 from react-addons-update peerDependencies
+97 warn peerDependencies The peer dependency react@^15.3.0 included from react-addons-update will no
+98 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+99 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+100 verbose readDependencies loading dependencies from /Users/huichen/Desktop/React/ATWC/node_modules/react-addons-update/package.json
+101 silly install resolved []
+102 verbose about to build /Users/huichen/Desktop/React/ATWC/node_modules/react-addons-update
+103 info build /Users/huichen/Desktop/React/ATWC/node_modules/react-addons-update
+104 info linkStuff react-addons-update@15.3.0
+105 silly linkStuff react-addons-update@15.3.0 has /Users/huichen/Desktop/React/ATWC/node_modules as its parent node_modules
+106 verbose linkBins react-addons-update@15.3.0
+107 verbose linkMans react-addons-update@15.3.0
+108 verbose rebuildBundles react-addons-update@15.3.0
+109 info install react-addons-update@15.3.0
+110 info postinstall react-addons-update@15.3.0
+111 verbose readDependencies loading dependencies from /Users/huichen/Desktop/React/ATWC/package.json
+112 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/axios/package.json
+113 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/babel-preset-es2015/package.json
+114 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/babel-preset-react/package.json
+115 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/babelify/package.json
+116 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/classnames/package.json
+117 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/electron/package.json
+118 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/electron-prebuilt/package.json
+119 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/electron-reload/package.json
+120 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/envify/package.json
+121 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/jquery/package.json
+122 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/jsplumb/package.json
+123 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/level/package.json
+124 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/nedb/package.json
+125 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/pouchdb/package.json
+126 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/react/package.json
+127 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/react-addons-update/package.json
+128 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/react-autocomplete/package.json
+129 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/react-dom/package.json
+130 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/react-sound/package.json
+131 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/selenium-standalone/package.json
+132 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/soundmanager2/package.json
+133 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/watchify/package.json
+134 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/.bin/electron/package.json
+135 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/.bin/envify/package.json
+136 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/.bin/selenium-standalone/package.json
+137 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/.bin/start-selenium/package.json
+138 verbose targetResolver reading package data from /Users/huichen/Desktop/React/ATWC/node_modules/.bin/watchify/package.json
+139 verbose already installed skipping react@^15.3.0 /Users/huichen/Desktop/React/ATWC
+140 silly install resolved []
+141 verbose unlock done using /Users/huichen/.npm/_locks/react-addons-update-574caf1f6a478aed.lock for /Users/huichen/Desktop/React/ATWC/node_modules/react-addons-update
+142 verbose validateInstall loading /Users/huichen/Desktop/React/ATWC/package.json for validation
+143 verbose stack Error: The package react@0.14.8 does not satisfy its siblings' peerDependencies requirements!
+143 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+143 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+143 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+143 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+143 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+143 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+143 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+143 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+143 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+143 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+144 verbose cwd /Users/huichen/Desktop/React/ATWC
+145 error Darwin 15.3.0
+146 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "react-addons-update"
+147 error node v4.4.7
+148 error npm  v2.15.8
+149 error code EPEERINVALID
+150 error peerinvalid The package react@0.14.8 does not satisfy its siblings' peerDependencies requirements!
+150 error peerinvalid Peer react-dom@0.14.8 wants react@^0.14.8
+150 error peerinvalid Peer react-sound@0.4.0 wants react@>=0.13.3 <16.0.0
+150 error peerinvalid Peer react-addons-update@15.3.0 wants react@^15.3.0
+150 error peerinvalid Peer react-autocomplete@1.0.1 wants react@^0.14.7 || ^15.0.0-0
+151 verbose exit [ 1, true ]
